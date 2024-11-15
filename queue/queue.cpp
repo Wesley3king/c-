@@ -1,5 +1,7 @@
 #include <iostream>
 #include <queue>
+// system
+#include <stdlib.h>
 
 using namespace std;
 
@@ -15,6 +17,10 @@ int main() {
     cout << "primeiro elemento na fila : " << cores.back() << endl;
     string isEmpty = cores.empty() ? "a fila esta vazia" : "a fila nao esta vazia";
     cout << isEmpty;
+
+    // system
+    cout << "\n------------------------------------------";
+    system("sudo apt update");
 
     return 0;
 }
